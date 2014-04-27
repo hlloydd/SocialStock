@@ -10,7 +10,7 @@ import java.util.HashMap;
 import org.json.JSONException;
 import org.json.JSONObject;
  
-import android.R;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,8 +20,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
  
-import com.example.dashboard.library.DatabaseHandler;
-import com.example.dashboard.library.UserFunctions;
+import library.DatabaseHandler;
+import library.UserFunctions;
  
 public class LoginActivity extends Activity {
     Button btnLogin;

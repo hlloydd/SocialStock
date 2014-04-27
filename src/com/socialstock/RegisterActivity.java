@@ -2,10 +2,9 @@ package com.socialstock;
 
 import org.json.JSONException;
 import org.json.JSONObject;
- 
-import com.example.androidhive.R;
-import com.example.dashboard.library.DatabaseHandler;
-import com.example.dashboard.library.UserFunctions;
+
+import library.DatabaseHandler;
+import library.UserFunctions;
  
 import android.app.Activity;
 import android.content.Intent;
@@ -41,8 +40,7 @@ public class RegisterActivity extends Activity {
         setContentView(R.layout.register);
  
         // Importing all assets like buttons, text fields
-        inputFirstName = (EditText) findViewById(R.id.registerFirstName);
-        inputLastName = (EditText) findViewById(R.id.registerLastName);
+        inputFirstName = (EditText) findViewById(R.id.registerName);
         inputEmail = (EditText) findViewById(R.id.registerEmail);
         inputPassword = (EditText) findViewById(R.id.registerPassword);
         btnRegister = (Button) findViewById(R.id.btnRegister);
