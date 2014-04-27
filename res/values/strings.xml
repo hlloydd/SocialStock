@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SocialStock</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="welcome_to_socialstocks">Welcome to SocialStocks</string>
+    <string name="title_activity_my_stocks">MyStocks</string>
+    <string name="title_activity_ranking">Ranking</string>
+    <string name="title_activity_addstock">Addstock</string>
+    
+    <string name="My_Stocks">My_Stocks</string>
+
+</resources>
