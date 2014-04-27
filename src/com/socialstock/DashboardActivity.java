@@ -1,6 +1,7 @@
 package com.socialstock;
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.os.Bundle;
 
 import android.support.v4.app.Fragment;
@@ -43,8 +44,15 @@ public class DashboardActivity extends FragmentActivity implements
 								getString(R.string.My_Stocks),
 								getString(R.string.title_section2),
 								getString(R.string.title_section3), }), this);
+		Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+		intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+		startActivity(intent);
+	
 	}
+	
+	
 
+	
 	@Override
 	public void onRestoreInstanceState(Bundle savedInstanceState) {
 		// Restore the previously serialized current dropdown position.
@@ -52,6 +60,7 @@ public class DashboardActivity extends FragmentActivity implements
 			getActionBar().setSelectedNavigationItem(
 					savedInstanceState.getInt(STATE_SELECTED_NAVIGATION_ITEM));
 		}
+		
 	}
 
 	@Override
