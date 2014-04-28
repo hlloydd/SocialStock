@@ -15,8 +15,8 @@ public class UserFunctions {
     private JSONParser jsonParser;
      
     // Testing in http://silo.soic.indiana.edu
-    private static String loginURL = "http://silo.soic.indiana.edu/ah_login_api/";
-    private static String registerURL = "http://silo.soic.indiana.edu/ah_login_api/";
+    private static String loginURL = "http://cgi.soic.indiana.edu/~team27";
+    private static String registerURL = "http://cgi.soic.indiana.edu/~team27";
      
     private static String login_tag = "login";
     private static String register_tag = "register";
